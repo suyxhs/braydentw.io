@@ -5,14 +5,12 @@ function Hero() {
   return (
     <>
       <div
-        className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
+        className="relative flex flex-col items-center justify-center w-full pt-20 pb-40 m-auto text-center heroElem z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I'm Brayden.</p>
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
-          I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
-          <span className="heroShiny2 text-fun-pink">designing</span> for the
-          web.
+        <p className="mb-5 text-xl">Привет - это команда ВелоЛидер.</p>
+        <h1 className="relative inline-block w-auto max-w-2xl mb-10 text-5xl font-bold tracking-tighter heroTitle lg:max-w-4xl md:text-6xl lg:text-7xl heroShinyBg">
+          Хочешь попасть в команду?
           <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
@@ -66,8 +64,8 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-            Tell me more
+          <div className="px-10 py-4 text-xl font-bold transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-fun-white border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink">
+            Подробнее
           </div>
         </ScrollLink>
       </div>
